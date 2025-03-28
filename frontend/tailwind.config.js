@@ -5,12 +5,40 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        jetbrains: ['"JetBrains Mono"', 'monospace'],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
+        'bunker': {
+    '50': '#F2F4F5', 
+    '100': '#E3E6E8', 
+    '200': '#BDC2C7', 
+    '300': '#979EA6', 
+    '400': '#555A63', 
+    '500': '#191b20', 
+    '600': '#15181F', 
+    '700': '#0F111A', 
+    '800': '#0A0C14', 
+    '900': '#05070F', 
+    '950': '#02040A'
+},'pomegranate': {
+    '50': '#FFFBF5', 
+    '100': '#FFF5E8', 
+    '200': '#FFE4C7', 
+    '300': '#FCCDA4', 
+    '400': '#FC9862', 
+    '500': '#fb5421', 
+    '600': '#E0461B', 
+    '700': '#BA3413', 
+    '800': '#96250C', 
+    '900': '#701807', 
+    '950': '#470D03'
+},
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
